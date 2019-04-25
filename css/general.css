@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body,
+p,
+    {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/*================
+   pace loader
+=================*/
+.pace-running .entire-content{
+    opacity: 0;
+}
+.pace-done .entire-content{
+    opacity: 1;
+    transition: all 2s ease-in;
+}
+
+/*================
+   Paralax
+=================*/
+.bg-paralax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*================
+animate delay duration
+=================*/
+#home,
+#home-content,
+#title,
+#about-content {
+    animation-duration: 3s;
+
+}
+
+#home {
+    animation-delay: 1s;
+}
+
+#home-content,
+#title {
+    animation-delay: 2s;
+}
+
+/*================
+  title heading
+=================*/
+.title-underline {
+    height: 2px;
+    width: 50px;
+    background-color: #EB4038;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.title-heading {
+    color: #00ADA6;
+    padding: 25px 0 0 5px;
+}
+
+/*================
+     centering
+=================*/
+#home-content-box,
+#about-content-box,
+#skill-content-box {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#home-content-box-inner,
+#about-content-box-inner,
+#skill-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*================
+     social icon
+=================*/
+.social-icon a i {
+    padding: 15px;
+}
+
+.social-icon a i.fa-facebook {
+    color: #3b5998;
+}
+
+.social-icon a i.fa-twitter-square {
+    color: #00aced;
+}
+
+.social-icon a i.fa-linkedin-in {
+    color: #007bb5;
+}
